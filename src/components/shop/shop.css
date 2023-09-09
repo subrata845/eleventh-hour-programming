@@ -1,0 +1,30 @@
+
+.col-md-4 img{
+    margin: 3px;
+    height: 70%;
+    width: 70%;
+    align-self: center;
+}
+.product-container
+{
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-right: 1px solid gray;
+}
+.card-body
+{
+    margin: 3px;
+}
+.shop-container
+{
+    display: flex;
+    
+}
+.col-md-2
+{
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-top: 5px;
+}
