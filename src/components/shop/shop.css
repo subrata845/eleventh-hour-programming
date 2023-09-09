@@ -28,3 +28,24 @@
     border-radius: 20px;
     margin-top: 5px;
 }
+
+.price{
+    color: #FF136F;
+}
+.buy-now-button{
+background-image: linear-gradient(to bottom, #FF5898 0%, #FF136F 100% );
+color: #fff; 
+border: none;
+border-radius: 8px; 
+padding: 9px 25px;
+}
+.card{
+    margin-bottom: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+.card-body p
+{
+ text-align: left;
+}
