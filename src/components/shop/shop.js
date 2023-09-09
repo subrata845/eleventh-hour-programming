@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import './Shop.css'
+import './Shop.css';
+import Cart from '../Cart/Cart';
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
 import js_logo from '../../images/js.svg'; 
@@ -14,8 +15,9 @@ import python_logo from '../../images/python.svg';
 
 const shop = () => {
     return (
+
+      <div className='shop-container'>
 <div className='product-container'>
- 
         <div className="row ">
           <div className="col-md-4 card px-md-5 card">
                   <img src={java_logo} className="card-img-top" alt="..."/>
@@ -116,16 +118,10 @@ const shop = () => {
        </div>
 
   </div>
-
-  
-  
-
-
-
-
-    
-  
-
+  <div className='cart-container'>
+<Cart></Cart>
+</div>
+      </div>
 
     );
 };

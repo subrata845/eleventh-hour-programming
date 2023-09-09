@@ -5,6 +5,10 @@
     width: 70%;
     align-self: center;
 }
+.cart-container
+{
+    display: flex;
+}
 .product-container
 {
     width: 80%;
@@ -17,11 +21,7 @@
 {
     margin: 3px;
 }
-.shop-container
-{
-    display: flex;
-    
-}
+
 .col-md-2
 {
     border: 1px solid gray;
